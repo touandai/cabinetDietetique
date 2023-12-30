@@ -1,0 +1,128 @@
+body
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0px;
+    padding:0px;
+}
+.container-fluid
+{
+    display:flex;
+    justify-content: center;
+    padding : 10px;
+}
+.container
+{
+  margin-top :10px;
+}
+#nav1
+{
+    display: flex;
+    justify-content: center;
+}
+.menu:hover
+{
+ 
+  background-color: RGBa(189, 183, 107, 74);
+}
+#nav2
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    border:2px solid;
+    border-radius: 30px;
+    background-color: tomato;
+    color:white;
+  }
+main
+{
+    margin-top:15px;
+    display: flex;
+    flex-direction: column;
+}
+section
+{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+
+}
+#recette
+{
+    gap: 10px;
+   
+}
+#recette div
+{
+    padding: 10px;
+    cursor: pointer;
+    border: 2px solid tomato;
+}
+#galerie
+{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+    margin:auto;
+    gap: 10px;
+}
+#galerie .active
+{
+  transition: widht .3s;
+}
+#galerie .inactive
+{
+  width:0;
+  padding:0;
+  transition: widht .3s;
+}
+#tout
+{
+    font-weight: bold;
+    font-size: larger;
+}
+
+nav > ul > li 
+{
+    display: inline;
+    font-size: larger;
+    font-family:fantasy;
+    letter-spacing:2px;
+    padding:10px;
+}
+li  a 
+{
+    text-decoration: none;
+}
+img
+{
+    max-width: 100%;
+    height: auto;  
+}
+footer
+{
+  margin-top:10px;
+  display: flex;
+  justify-content: center;
+  font-size:larger;
+  font-family:fantasy;
+  letter-spacing:3px;
+}
+
+footer > ul > li 
+{
+    display: inline;
+    font-size:medium;
+    font-family:fantasy;
+    letter-spacing:2px;
+    padding:30px;
+}
+
+@media screan and (min-width:300) {
+    .container-fluid{
+     width:90%;
+    }
+
+    }
+ 
