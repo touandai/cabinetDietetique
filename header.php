@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="site web Sandrine Coupart e">
-    <title>Sandrine Coupart diététicienne-nutritionniste </title>
+    <meta name="description" content="site web Sandrine Brecy">
+    <title>Sandrine Brecy diététicienne-nutritionniste </title>
     <link href="assets/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
 </head>
